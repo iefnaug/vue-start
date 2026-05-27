@@ -1,17 +1,21 @@
 <script setup>
 import {ref} from 'vue'
 const count = ref(0)
+let clazz = 'box'
 function clickIt(e) {
-  console.log('clickIt')
   e.target.classList.toggle('box')
+  count.value++
+  clazz = 'box2';
 }
+
+const innerHTML = "<p>a</p><p>b</p>"
 </script>
 
 <template>
 <div class="wrapper">
-  <div @click="(e) => {clickIt(e); count++}">{{count}}</div>
-  <div>2</div>
-  <div>3</div>
+  <div @click="(e) => clickIt(e)">{{count}}</div>
+  <div v-html="innerHTML"></div>
+  <div v-bind:class="clazz">3</div>
   <div>4</div>
 </div>
 </template>
@@ -31,5 +35,9 @@ function clickIt(e) {
 
 .wrapper .box {
   background-color: lightcoral;
+}
+
+.wrapper .box2 {
+  background-color: bisque;
 }
 </style>
