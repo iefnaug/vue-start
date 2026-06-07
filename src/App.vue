@@ -1,11 +1,12 @@
 <script setup>
-import Demo01 from "./components/Demo01.vue";
-import Demo02 from "./components/Demo02.vue";
+// import Demo01 from "./components/Demo01.vue";
+// import Demo02 from "./components/Demo02.vue";
 // import Demo03 from "./components/Demo03.vue";
 // import Demo04 from "./components/Demo04.vue";
 // import Demo05 from "./components/Demo05.vue";
 // import Demo06 from "./components/Demo06.vue";
-import Demo07 from "./components/Demo07.vue";
+// import Demo07 from "./components/Demo07.vue";
+import Demo08 from "./components/Demo08.vue";
 </script>
 
 <template>
@@ -15,5 +16,6 @@ import Demo07 from "./components/Demo07.vue";
 <!--  <Demo04></Demo04>-->
 <!--  <Demo05></Demo05>-->
   <!-- <Demo06></Demo06> -->
-   <Demo07></Demo07>
+<!--   <Demo07></Demo07>-->
+  <Demo08></Demo08>
 </template>
