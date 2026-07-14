@@ -12,7 +12,8 @@
 import Demo10 from "./components/examples/basic/HandleUserInput.vue";
 import HandleUserInput from "./components/examples/basic/HandleUserInput.vue";
 import At from "./components/examples/basic/AttributeBinding.vue";
-import AttributeBinding from "./components/examples/basic/AttributeBinding.vue";
+// import AttributeBinding from "./components/examples/basic/AttributeBinding.vue";
+import ConditionAndLoop from "./components/examples/basic/ConditionAndLoop.vue";
 </script>
 
 <template>
@@ -27,5 +28,6 @@ import AttributeBinding from "./components/examples/basic/AttributeBinding.vue";
 <!--  <Demo09></Demo09>-->
 <!--  <Demo10></Demo10>-->
 <!--  <HandleUserInput></HandleUserInput>-->
-  <AttributeBinding></AttributeBinding>
+<!--  <AttributeBinding></AttributeBinding>-->
+  <ConditionAndLoop></ConditionAndLoop>
 </template>
