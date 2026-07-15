@@ -14,6 +14,7 @@ import HandleUserInput from "./components/examples/basic/HandleUserInput.vue";
 import At from "./components/examples/basic/AttributeBinding.vue";
 // import AttributeBinding from "./components/examples/basic/AttributeBinding.vue";
 import ConditionAndLoop from "./components/examples/basic/ConditionAndLoop.vue";
+import FormBinding from "./components/examples/basic/FormBinding.vue";
 </script>
 
 <template>
@@ -29,5 +30,6 @@ import ConditionAndLoop from "./components/examples/basic/ConditionAndLoop.vue";
 <!--  <Demo10></Demo10>-->
 <!--  <HandleUserInput></HandleUserInput>-->
 <!--  <AttributeBinding></AttributeBinding>-->
-  <ConditionAndLoop></ConditionAndLoop>
+<!--  <ConditionAndLoop></ConditionAndLoop>-->
+  <FormBinding/>
 </template>
