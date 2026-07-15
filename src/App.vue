@@ -16,6 +16,7 @@ import At from "./components/examples/basic/AttributeBinding.vue";
 import ConditionAndLoop from "./components/examples/basic/ConditionAndLoop.vue";
 import FormBinding from "./components/examples/basic/FormBinding.vue";
 import SimpleComponent from "./components/examples/basic/SimpleComponent.vue";
+import GetData from "./components/examples/action/GetData.vue";
 </script>
 
 <template>
@@ -33,6 +34,6 @@ import SimpleComponent from "./components/examples/basic/SimpleComponent.vue";
 <!--  <AttributeBinding></AttributeBinding>-->
 <!--  <ConditionAndLoop></ConditionAndLoop>-->
 <!--  <FormBinding/>-->
-  <SimpleComponent/>
-
+<!--  <SimpleComponent/>-->
+  <GetData/>
 </template>
